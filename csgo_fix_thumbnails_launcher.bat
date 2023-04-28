@@ -1,7 +1,7 @@
 @echo off
 
-setlocal enabledelayedexpansion
+set collection_id="2967702171"
 
-set "collection_id=2961391187"
+powershell -ExecutionPolicy Bypass -file csgo_fix_thumbnails_script.ps1 %collection_id%
 
-powershell -ExecutionPolicy Bypass -file csgo_fix_thumbnails_script.ps1 2961391187
+pause
