@@ -24,7 +24,7 @@ It is composed of 2 distinct scripts:
 
 ## How use it ?
 
-1. Identify your collection ID
+1. Identify your [collection ID](https://steamcommunity.com/workshop/browse/?section=collections&appid=730)
 
 ### On Dedicated Server (Linux): 
 
