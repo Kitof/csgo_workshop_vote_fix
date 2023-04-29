@@ -16,11 +16,11 @@ Indeed, there are two distinct problems:
 
 ## What is this fix ?
 
-It is composed of 2 distinct actions:
+It is composed of 2 distincts fixes:
 
-**An action for the server (Linux or Windows):** I chose not to directly modify the server configuration which can sometimes have been largely customized by the administrator. The script generates the configuration to be added or merged manually to the gamemodes_server.txt file. To do this, it needs to retrieve the names of the bsp files that are not directly readable on the website. They are therefore retrieved via the Steam API[^1].
+**A fix for the server (Linux or Windows):** I chose not to directly modify the server configuration which can sometimes have been largely customized by the administrator. The script generates the configuration to be added or merged manually to the gamemodes_server.txt file. To do this, it needs to retrieve the names of the bsp files that are not directly readable on the website. They are therefore retrieved via the Steam API[^1].
 
-**An action for clients (Windows only):** The goal is to have a plug and play script that does not require any prior installation to make installation by players very easy. This script will retrieve the thumbnails of the cards, convert it in png, and modify the gamemodes.txt file to allow them to be displayed[^2].
+**A fix for clients (Windows only):** The goal is to have a plug and play script that does not require any prior installation to make installation by players very easy. This script will retrieve the thumbnails of the cards, convert it in png, and modify the gamemodes.txt file to allow them to be displayed[^2].
 
 ## How use it ?
 
