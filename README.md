@@ -16,11 +16,11 @@ Indeed, there are two distinct problems:
 
 ## What is this fix ?
 
-It is composed of 2 distinct scripts:
+It is composed of 2 distinct actions:
 
-**A python script for the server:** I chose not to directly modify the server configuration which can sometimes have been largely customized by the administrator. The script generates the configuration to be added manually to the gamemodes_server.txt file. To do this, it needs to retrieve the names of the bsp files that are not directly readable on the website. They are therefore retrieved via the Steam API[^1].
+**An action for the server (Linux or Windows):** I chose not to directly modify the server configuration which can sometimes have been largely customized by the administrator. The script generates the configuration to be added or merged manually to the gamemodes_server.txt file. To do this, it needs to retrieve the names of the bsp files that are not directly readable on the website. They are therefore retrieved via the Steam API[^1].
 
-**A PowerShell script for Windows clients:** Unlike the server script, I have chosen a plug and play script that does not require any prior installation. This script will retrieve the thumbnails of the cards and modify the gamemodes.txt file to allow them to be displayed[^2].
+**An action for clients (Windows only):** The goal is to have a plug and play script that does not require any prior installation to make installation by players very easy. This script will retrieve the thumbnails of the cards, convert it in png, and modify the gamemodes.txt file to allow them to be displayed[^2].
 
 ## How use it ?
 
@@ -50,9 +50,9 @@ It is composed of 2 distinct scripts:
 
 ### On Clients side (Windows) : 
 
-6. Change `collection_id` in `csgo_fix_thumbnails_launcher.bat`
+7. Change `collection_id` in `csgo_fix_thumbnails_launcher.bat`
 
-7. Launch  `csgo_fix_thumbnails_launcher.bat`
+8. Launch  `csgo_fix_thumbnails_launcher.bat`
 
 [^1]: Thanks to @karl-police2023[GER] from https://github.com/ValveSoftware/csgo-osx-linux/issues/2025
 [^2]: Thanks to @Bacari et @wanko from https://forums.alliedmods.net/showthread.php?t=312268&page=2
