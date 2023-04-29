@@ -1,0 +1,32 @@
+"GameModes.txt"
+{
+	"gameTypes"
+	{
+		"classic"
+		{
+			"gameModes"
+			{
+				"casual"
+				{
+					"mapgroupsMP"
+					{
+						"my_custom_group" ""
+					}
+				}
+			}
+		}
+	}
+
+	"mapgroups"
+	{
+		"my_custom_group"
+		{
+			"maps"
+			{
+			
+// ADD MAPS HERE
+
+			}
+		}
+	}
+}

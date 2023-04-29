@@ -2,6 +2,5 @@
 
 set collection_id="2967702171"
 
-powershell -ExecutionPolicy Bypass -file csgo_fix_thumbnails_script.ps1 %collection_id%
-
-pause
+set "cur_path=%cd%"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process -Verb RunAs powershell -ArgumentList '-NoExit -NoProfile -ExecutionPolicy Bypass -File \"%cur_path%\csgo_fix_thumbnails_script.ps1\" -ca %collection_id% -wd \"%cur_path%\"'"

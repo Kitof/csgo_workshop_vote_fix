@@ -1,5 +1,7 @@
 # Fix for the CS:GO end-of-match votes on the workshop maps 
 
+![Alt text](imgs/VoteWithThumbnails.png?raw=true "Vote With Thumbnails")
+
 ## Why a fix for CS:GO ?
 
 CS:GO offers a very interesting feature: The ability to subscribe to a Workshop map collection to play a series of original maps that will follow each other.
@@ -24,21 +26,33 @@ It is composed of 2 distinct scripts:
 
 1. Identify your collection ID
 
-### On Dedicated Server : 
+### On Dedicated Server (Linux): 
 
 2. Launch `python csgo_fix_vote_for_workshop_map.py <collection ID>`
 
-3. Use generated content in `csgo/gamemodes_server.txt`
+3. Use & adapt generated content in `csgo/gamemodes_server.txt`
 
 4. Add `mapgroup my_custom_group` to `csgo/cfg/server.txt`
 
 5. Launch your server with additionnal parameters `+host_workshop_collection <collection ID> +workshop_start_map <first map ID>`
 
-### On Clients side : 
+### On Dedicated Server (Windows): 
+
+2. Change `collection_id` in `csgo_fix_vote_for_workshop_map.bat`
+
+3. Launch `csgo_fix_vote_for_workshop_map.bat`
+
+4. Use & adapt generated content in `csgo/gamemodes_server.txt`
+
+5. Add `mapgroup my_custom_group` to `csgo/cfg/server.txt`
+
+6. Launch your server with additionnal parameters `+host_workshop_collection <collection ID> +workshop_start_map <first map ID>`
+
+### On Clients side (Windows) : 
 
 6. Change `collection_id` in `csgo_fix_thumbnails_launcher.bat`
 
-7. Launch with admin rights `csgo_fix_thumbnails_launcher.bat`
+7. Launch  `csgo_fix_thumbnails_launcher.bat`
 
-[^1]: Thanks to @valeologist from https://github.com/ValveSoftware/csgo-osx-linux/issues/2025
+[^1]: Thanks to @karl-police2023[GER] from https://github.com/ValveSoftware/csgo-osx-linux/issues/2025
 [^2]: Thanks to @Bacari et @wanko from https://forums.alliedmods.net/showthread.php?t=312268&page=2
