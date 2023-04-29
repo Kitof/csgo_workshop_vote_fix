@@ -54,5 +54,5 @@ It is composed of 2 distinct actions:
 
 8. Launch  `csgo_fix_thumbnails_launcher.bat`
 
-[^1]: Thanks to @karl-police2023[GER] from https://github.com/ValveSoftware/csgo-osx-linux/issues/2025
+[^1]: Thanks to @valeologist from https://github.com/ValveSoftware/csgo-osx-linux/issues/2025
 [^2]: Thanks to @Bacari et @wanko from https://forums.alliedmods.net/showthread.php?t=312268&page=2
