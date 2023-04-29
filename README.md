@@ -4,7 +4,7 @@
 
 ## Why a fix for CS:GO ?
 
-CS:GO offers a very interesting feature: The ability to subscribe to a Workshop map collection to play a series of original maps that will follow each other.
+CS:GO offers a very interesting feature: The ability to subscribe to a workshop map collection to play a series of original maps that will follow each other.
 
 This feature works well, but another feature is broken when coupled with it: the end-of-match vote for next map.
 
