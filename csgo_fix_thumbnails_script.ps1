@@ -9,7 +9,7 @@ function Usage {
     Write-Host ("-cr, --client-restore `t Client Restore original gamesmode.txt")
     Write-Host ("-so, --server-output `t Server Output mode")
     Write-Host ("-sa, --server-append `t Server Append mode")
-    Write-Host ("-sr, --server-replace `t Server Replace mode")
+    Write-Host ("-sx, --server-replace `t Server Replace mode")
     Write-Host ("Options :")
     Write-Host ("-wd, --working-directory `t Specified a working directory")
 }
