@@ -56,3 +56,23 @@ It is composed of 2 distincts fixes:
 
 [^1]: Thanks to @valeologist from https://github.com/ValveSoftware/csgo-osx-linux/issues/2025
 [^2]: Thanks to @Bacari et @wanko from https://forums.alliedmods.net/showthread.php?t=312268&page=2
+
+## Advanced Usage
+
+You could launch 'csgo_fix_thumbnails_script.ps1' directly. It support several parameters :
+```
+Usage: csgo_fix_thumbnails_script.ps1 [MODE] [COLLECTION_ID] [OPTIONS]
+
+
+Modes :
+
+-ca, --client-append    Client Append mode: Add maps to configuration (default)
+-cx, --client-replace   Client Replace mode: Replace maps of current configuration
+-cr, --client-restore   Client Restore original gamemodes.txt
+-so, --server-output    Server Output mode: Output new gamemodes_server.txt
+-sa, --server-append    Server Append mode: If exists, add maps to gamemodes_server.txt in working directory.
+-sr, --server-replace   Server Replace file mode: Create or replace example gamemodes_server.txt in working directory
+
+Options :
+-wd, --working-directory `t Specified a working directory
+```

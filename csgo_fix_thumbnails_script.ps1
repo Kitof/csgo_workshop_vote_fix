@@ -8,8 +8,8 @@ function Usage {
     Write-Host ("-cx, --client-replace `t Client Replace mode")
     Write-Host ("-cr, --client-restore `t Client Restore original gamesmode.txt")
     Write-Host ("-so, --server-output `t Server Output mode")
-    Write-Host ("-se, --server-example `t Server Example file mode")
-    Write-Host ("-sr, --server-replace `t Server Replace file mode")
+    Write-Host ("-sa, --server-append `t Server Append mode")
+    Write-Host ("-sr, --server-replace `t Server Replace mode")
     Write-Host ("Options :")
     Write-Host ("-wd, --working-directory `t Specified a working directory")
 }
