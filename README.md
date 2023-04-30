@@ -65,7 +65,6 @@ Usage: csgo_fix_thumbnails_script.ps1 [MODE] [COLLECTION_ID] [OPTIONS]
 
 
 Modes :
-
 -ca, --client-append    Client Append mode: Add maps to configuration (default)
 -cx, --client-replace   Client Replace mode: Replace maps of current configuration
 -cr, --client-restore   Client Restore original gamemodes.txt
