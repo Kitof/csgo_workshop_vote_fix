@@ -73,5 +73,5 @@ Modes :
 -sr, --server-replace   Server Replace file mode: Create or replace example gamemodes_server.txt in working directory
 
 Options :
--wd, --working-directory `t Specified a working directory
+-wd, --working-directory  Specified a working directory
 ```
