@@ -70,7 +70,7 @@ Modes :
 -cr, --client-restore   Client Restore original gamemodes.txt
 -so, --server-output    Server Output mode: Output new gamemodes_server.txt
 -sa, --server-append    Server Append mode: If exists, add maps to gamemodes_server.txt in working directory.
--sr, --server-replace   Server Replace file mode: Create or replace example gamemodes_server.txt in working directory
+-sx, --server-replace   Server Replace file mode: Create or replace example gamemodes_server.txt in working directory
 
 Options :
 -wd, --working-directory  Specified a working directory
