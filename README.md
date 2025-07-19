@@ -2,6 +2,8 @@
 
 ![Alt text](imgs/VoteWithThumbnails.png?raw=true "Vote With Thumbnails")
 
+## Version for CS2 here : https://github.com/Kitof/CS2-EomVotesFix ##
+
 ## Why a fix for CS:GO ?
 
 CS:GO offers a very interesting feature: The ability to subscribe to a workshop map collection to play a series of original maps that will follow each other.
